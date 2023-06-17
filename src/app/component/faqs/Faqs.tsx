@@ -62,7 +62,7 @@ const FAQs: React.FC = () => {
                     </div>
                     {activeIndex === index && (
                         <>
-                            <p className="pl-8 mt-2">{faq.answer}</p>
+                            <p className="pl-8 mt-2 text-start">{faq.answer}</p>
                             {/* <hr className="mt-2" /> */}
                         </>
                     )}
